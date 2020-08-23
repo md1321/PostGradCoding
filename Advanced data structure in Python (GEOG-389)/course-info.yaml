@@ -1,0 +1,9 @@
+title: Advanced data structure in Python (GEOG-389)
+language: English
+summary: |-
+  1. Learn to use numpy array, pandas data frame.
+  2. Read vector and raster data using geopandas and rasterio in Python
+programming_language: Python
+content:
+- Advanced data structure in Python (GEOG-389 (1)
+mode: Study

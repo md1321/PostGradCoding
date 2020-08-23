@@ -1,0 +1,164 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 154
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 154
+    initialized_from_dependency: false
+    possible_answer: C:\Users\yi\Documents\UH_work\Teaching\GEOG389\labs\lab2_data\election.csv
+    selected: false
+    status: Unchecked
+  - offset: 243
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 243
+    initialized_from_dependency: false
+    possible_answer: df.head()
+    selected: false
+    status: Unchecked
+  - offset: 332
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 332
+    initialized_from_dependency: false
+    possible_answer: df['winner']=='Obama'
+    selected: false
+    status: Unchecked
+  - offset: 696
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 696
+    initialized_from_dependency: false
+    possible_answer: '''Obama'''
+    selected: false
+    status: Unchecked
+  - offset: 711
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 711
+    initialized_from_dependency: false
+    possible_answer: '''Romney'''
+    selected: false
+    status: Unchecked
+  - offset: 879
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 879
+    initialized_from_dependency: false
+    possible_answer: '[''county'']'
+    selected: false
+    status: Unchecked
+  - offset: 1025
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 1025
+    initialized_from_dependency: false
+    possible_answer: df[df['winner']=='Obama']
+    selected: false
+    status: Unchecked
+  - offset: 1140
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 1140
+    initialized_from_dependency: false
+    possible_answer: obama_counties['total'].sum()
+    selected: false
+    status: Unchecked
+  - offset: 1234
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 1234
+    initialized_from_dependency: false
+    possible_answer: obama_counties['voters'].sum()
+    selected: false
+    status: Unchecked
+  text: |
+    import pandas as pd
+
+    # Please change the file path to the location where you stored the data.
+    # You may copy it from the previous task.
+    df = pd.read_csv('type here')
+
+    # As usual, print the first 5 rows in df to have a glance of its structure.
+    type here
+
+    # select rows in which Obama won, and load the rows to obama_df
+    obama_df = df[type here]
+
+    #print obama_df to check if the selection is correct.
+    obama_df
+
+    # print the shape of obama_df.
+    # The output would tell you the number of rows and columns in obama_df.
+    # Then you know how many counties did Obama win in PA.
+    obama_df.shape
+
+    # add a new column in df to store the difference of vote percentages between Obama and Romney
+    df['diff_pct'] = df[type here]- df[type here]
+
+    # select rows in which Obama won Romney by at least 10%.
+    obama_win_big = df[df['diff_pct']>10]
+
+    # print only the county names in obama_win_big
+    obama_win_bigtype here
+
+    # Calculate the turnout of counties where Obama won
+    # First, get the counties where Obama won (obama_eligible_voters)
+    obama_counties = type here
+
+    # Next, calculate the total eligible voters in obama_counties (obama_total_voters)
+    obama_total_voters = type here
+
+    # Then, calculate actual voters in counties where Obama won.
+    obama_actual_voters = type here
+
+    # Finally, calculate the turnout ratio in counties where Obama won.
+    # Think about why you need float(). Try what if not using float()
+    obama_county_tournout = float(obama_actual_voters)/float(obama_total_voters)
+
+    # Print obama_county_tournout
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |+
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_answer_placeholders():
+        placeholders = get_answer_placeholders()
+        placeholder = placeholders[0]
+        if placeholder == "":       # TODO: your condition here
+            passed()
+        else:
+            failed()
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        # test_answer_placeholders()       # TODO: uncomment test call
+
+
+  learner_created: false
+status: Unchecked
+record: -1

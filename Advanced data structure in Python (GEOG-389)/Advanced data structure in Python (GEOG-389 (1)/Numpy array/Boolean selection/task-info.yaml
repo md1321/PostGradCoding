@@ -1,0 +1,128 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 148
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 148
+    initialized_from_dependency: false
+    possible_answer: np.random.randint(10, size=(8, 10))
+    selected: false
+    status: Unchecked
+  - offset: 210
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 210
+    initialized_from_dependency: false
+    possible_answer: rand_np
+    selected: false
+    status: Unchecked
+  - offset: 279
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 279
+    initialized_from_dependency: false
+    possible_answer: '>'
+    selected: false
+    status: Unchecked
+  - offset: 380
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 380
+    initialized_from_dependency: false
+    possible_answer: rand_np>5
+    selected: false
+    status: Unchecked
+  - offset: 563
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 563
+    initialized_from_dependency: false
+    possible_answer: (rand_np>2)
+    selected: false
+    status: Unchecked
+  - offset: 573
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 573
+    initialized_from_dependency: false
+    possible_answer: (rand_np<8)
+    selected: false
+    status: Unchecked
+  - offset: 702
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 702
+    initialized_from_dependency: false
+    possible_answer: (rand_np<2)|(rand_np>8)
+    selected: false
+    status: Unchecked
+  text: |
+    import numpy as np
+    # Create an 8 by 10  array with random integer number between 0 and 100
+    # Refer to the previous task to write the code
+    rand_np = type here
+
+    # print rand_np in the console to see what's in it
+    type here
+
+    # Compare rand_np and 5, and print out the result
+    rand_np type here 5
+
+    # Get all elements > 5 and put them them to another array (large_np)
+    large_np = rand_np[type here]
+
+    # Print the result of rand_np
+    large_np
+
+    # Get all elements in np_array that are greater than (>) 2 and smaller (<) than 8
+    # Load these elements to mid_np
+    mid_np = rand_np[type here&type here]
+
+    # print mid_np
+    mid_np
+
+    #Get all elements in np_array that are greater than 8 or smaller than 2.
+    extreme_np = rand_np[type here]
+    # print extreme_np
+    extreme_np
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |+
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_answer_placeholders():
+        placeholders = get_answer_placeholders()
+        placeholder = placeholders[0]
+        if placeholder == "":       # TODO: your condition here
+            passed()
+        else:
+            failed()
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        # test_answer_placeholders()       # TODO: uncomment test call
+
+
+  learner_created: false
+status: Unchecked
+record: -1

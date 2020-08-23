@@ -1,32 +1,462 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="2396c84d-3974-4439-b6f0-a2999f72489d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number Again/fibonacci_number_again.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number Again/fibonacci_number_again_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number Again/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number Again/table1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number Again/table2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number Again/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number Again/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number Again/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number/fibonacci_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number/fibonacci_number_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Fibonacci Number/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Greatest Common Divisor/gcd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Greatest Common Divisor/gcd_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Greatest Common Divisor/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Greatest Common Divisor/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Greatest Common Divisor/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Greatest Common Divisor/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of Fibonacci Number/last_digit_of_fibonacci_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of Fibonacci Number/last_digit_of_fibonacci_number_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of Fibonacci Number/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of Fibonacci Number/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of Fibonacci Number/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of Fibonacci Number/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers Again/last_digit_of_the_sum_of_fibonacci_numbers_again.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers Again/last_digit_of_the_sum_of_fibonacci_numbers_again_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers Again/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers Again/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers Again/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers Again/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers/last_digit_of_the_sum_of_fibonacci_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers/last_digit_of_the_sum_of_fibonacci_numbers_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Fibonacci Numbers/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Squares of Fibonacci Numbers/last_digit_of_the_sum_of_squares_of_fibonacci_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Squares of Fibonacci Numbers/last_digit_of_the_sum_of_squares_of_fibonacci_numbers_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Squares of Fibonacci Numbers/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Squares of Fibonacci Numbers/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Squares of Fibonacci Numbers/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Last Digit of the Sum of Squares of Fibonacci Numbers/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Least Common Multiple/lcm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Least Common Multiple/lcm_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Least Common Multiple/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Least Common Multiple/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Least Common Multiple/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/Least Common Multiple/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up (1)/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Fibonacci Number Again/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Fibonacci Number/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Greatest Common Divisor/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of Fibonacci Number/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Fibonacci Numbers Again/last_digit_of_the_sum_of_fibonacci_numbers_again.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Fibonacci Numbers Again/last_digit_of_the_sum_of_fibonacci_numbers_again_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Fibonacci Numbers Again/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Fibonacci Numbers Again/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Fibonacci Numbers Again/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Fibonacci Numbers Again/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Fibonacci Numbers/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Fibonacci Numbers/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Fibonacci Numbers/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Fibonacci Numbers/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Squares of Fibonacci Numbers/last_digit_of_the_sum_of_squares_of_fibonacci_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Squares of Fibonacci Numbers/last_digit_of_the_sum_of_squares_of_fibonacci_numbers_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Squares of Fibonacci Numbers/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Squares of Fibonacci Numbers/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Squares of Fibonacci Numbers/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Last Digit of the Sum of Squares of Fibonacci Numbers/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/Least Common Multiple/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Algorithmic Warm Up/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Binary Search/binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Binary Search/binary_search_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Binary Search/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Binary Search/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Binary Search/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Binary Search/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Closest Points/closest_points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Closest Points/closest_points_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Closest Points/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Closest Points/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Closest Points/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Closest Points/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Improving QuickSort/quicksort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Improving QuickSort/quicksort_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Improving QuickSort/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Improving QuickSort/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Improving QuickSort/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Majority Element/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Majority Element/majority_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Majority Element/majority_element_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Majority Element/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Majority Element/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Majority Element/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Number of Inversions/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Number of Inversions/number_of_inversions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Number of Inversions/number_of_inversions_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Number of Inversions/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Number of Inversions/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Number of Inversions/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Organizing a Lottery/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Organizing a Lottery/organizing_lottery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Organizing a Lottery/organizing_lottery_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Organizing a Lottery/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Organizing a Lottery/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/Organizing a Lottery/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer (1)/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Binary Search/binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Binary Search/binary_search_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Binary Search/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Binary Search/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Binary Search/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Binary Search/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Closest Points/closest_points.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Closest Points/closest_points_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Closest Points/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Closest Points/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Closest Points/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Closest Points/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Improving QuickSort/quicksort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Improving QuickSort/quicksort_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Improving QuickSort/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Improving QuickSort/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Improving QuickSort/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Majority Element/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Majority Element/majority_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Majority Element/majority_element_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Majority Element/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Majority Element/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Majority Element/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Number of Inversions/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Number of Inversions/number_of_inversions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Number of Inversions/number_of_inversions_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Number of Inversions/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Number of Inversions/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Number of Inversions/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Organizing a Lottery/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Organizing a Lottery/organizing_lottery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Organizing a Lottery/organizing_lottery_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Organizing a Lottery/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Organizing a Lottery/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/Organizing a Lottery/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Divide-and-Conquer/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Edit Distance/edit_distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Edit Distance/edit_distance_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Edit Distance/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Edit Distance/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Edit Distance/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Edit Distance/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Three Sequences/lcs3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Three Sequences/lcs3_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Three Sequences/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Three Sequences/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Three Sequences/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Three Sequences/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Two Sequences/lcs2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Two Sequences/lcs2_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Two Sequences/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Two Sequences/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Two Sequences/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Longest Common Subsequence of Two Sequences/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Amount of Gold/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Amount of Gold/maximum_gold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Amount of Gold/maximum_gold_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Amount of Gold/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Amount of Gold/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Amount of Gold/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Value of an Arithmetic Expression/arithmetic_expression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Value of an Arithmetic Expression/arithmetic_expression_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Value of an Arithmetic Expression/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Value of an Arithmetic Expression/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Value of an Arithmetic Expression/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Maximum Value of an Arithmetic Expression/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Money Change Again/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Money Change Again/money_change_again.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Money Change Again/money_change_again_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Money Change Again/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Money Change Again/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Money Change Again/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Partitioning Souvenirs/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Partitioning Souvenirs/partition_souvenirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Partitioning Souvenirs/partition_souvenirs_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Partitioning Souvenirs/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Partitioning Souvenirs/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Partitioning Souvenirs/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Primitive Calculator/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Primitive Calculator/primitive_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Primitive Calculator/primitive_calculator_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Primitive Calculator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Primitive Calculator/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/Primitive Calculator/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming (1)/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Edit Distance/edit_distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Edit Distance/edit_distance_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Edit Distance/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Edit Distance/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Edit Distance/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Edit Distance/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Three Sequences/lcs3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Three Sequences/lcs3_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Three Sequences/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Three Sequences/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Three Sequences/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Three Sequences/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Two Sequences/lcs2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Two Sequences/lcs2_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Two Sequences/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Two Sequences/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Two Sequences/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Longest Common Subsequence of Two Sequences/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Amount of Gold/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Amount of Gold/maximum_gold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Amount of Gold/maximum_gold_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Amount of Gold/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Amount of Gold/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Amount of Gold/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Value of an Arithmetic Expression/arithmetic_expression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Value of an Arithmetic Expression/arithmetic_expression_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Value of an Arithmetic Expression/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Value of an Arithmetic Expression/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Value of an Arithmetic Expression/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Maximum Value of an Arithmetic Expression/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Money Change Again/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Money Change Again/money_change_again.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Money Change Again/money_change_again_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Money Change Again/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Money Change Again/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Money Change Again/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Partitioning Souvenirs/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Partitioning Souvenirs/partition_souvenirs_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Partitioning Souvenirs/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Partitioning Souvenirs/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Partitioning Souvenirs/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Primitive Calculator/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Primitive Calculator/primitive_calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Primitive Calculator/primitive_calculator_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Primitive Calculator/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Primitive Calculator/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/Primitive Calculator/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Dynamic Programming/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Car Fueling/car_fueling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Car Fueling/car_fueling_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Car Fueling/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Car Fueling/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Car Fueling/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Car Fueling/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Collecting Signatures/collecting_signatures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Collecting Signatures/collecting_signatures_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Collecting Signatures/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Collecting Signatures/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Collecting Signatures/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Collecting Signatures/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Advertisement Revenue/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Advertisement Revenue/maximum_ad_revenue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Advertisement Revenue/maximum_ad_revenue_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Advertisement Revenue/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Advertisement Revenue/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Advertisement Revenue/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Number of Prizes/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Number of Prizes/maximum_number_of_prizes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Number of Prizes/maximum_number_of_prizes_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Number of Prizes/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Number of Prizes/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Number of Prizes/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Salary/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Salary/maximum_salary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Salary/maximum_salary_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Salary/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Salary/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Salary/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Value of the Loot/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Value of the Loot/maximum_loot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Value of the Loot/maximum_loot_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Value of the Loot/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Value of the Loot/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Maximum Value of the Loot/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Money Change/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Money Change/money_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Money Change/money_change_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Money Change/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Money Change/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/Money Change/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms (1)/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Car Fueling/car_fueling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Car Fueling/car_fueling_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Car Fueling/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Car Fueling/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Car Fueling/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Car Fueling/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Collecting Signatures/collecting_signatures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Collecting Signatures/collecting_signatures_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Collecting Signatures/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Collecting Signatures/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Collecting Signatures/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Collecting Signatures/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Advertisement Revenue/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Advertisement Revenue/maximum_ad_revenue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Advertisement Revenue/maximum_ad_revenue_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Advertisement Revenue/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Advertisement Revenue/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Advertisement Revenue/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Number of Prizes/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Number of Prizes/maximum_number_of_prizes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Number of Prizes/maximum_number_of_prizes_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Number of Prizes/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Number of Prizes/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Number of Prizes/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Salary/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Salary/maximum_salary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Salary/maximum_salary_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Salary/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Salary/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Salary/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Value of the Loot/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Value of the Loot/maximum_loot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Value of the Loot/maximum_loot_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Value of the Loot/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Value of the Loot/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Maximum Value of the Loot/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Money Change/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Money Change/money_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Money Change/money_change_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Money Change/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Money Change/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/Money Change/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Greedy Algorithms/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Maximum Pairwise Product/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Maximum Pairwise Product/maximum_pairwise_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Maximum Pairwise Product/maximum_pairwise_product_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Maximum Pairwise Product/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Maximum Pairwise Product/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Maximum Pairwise Product/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Sum of Two Digits/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Sum of Two Digits/sum_of_two_digits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Sum of Two Digits/sum_of_two_digits_unit_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Sum of Two Digits/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Sum of Two Digits/task.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/Sum of Two Digits/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges (1)/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges/Maximum Pairwise Product/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges/Sum of Two Digits/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/Programming Challenges/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/course-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithmic Toolbox/test_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mc2_pc2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mc2_pc2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolliger_Cummulative.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Bolliger_Cummulative.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_Simulator.csv" beforeDir="false" afterPath="$PROJECT_DIR$/My_Simulator.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bollinger_strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/bollinger_strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_IBM3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/check_IBM3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketsim_editedv4.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketsim_editedv4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="ProjectId" id="1gHotK1DzjMSrJ6zcVwNwWqg5kh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithmic Toolbox" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Python.marketsim_editedv4">
+    <configuration name="bollinger_strategy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mc2_pc2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bollinger_strategy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="marketsim_editedv4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mc2_pc2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/marketsim_editedv4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.marketsim_editedv4" />
+        <item itemvalue="Python.bollinger_strategy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="WindowStateProjectService">
+    <state x="1187" y="44" width="1590" height="1808" key="FileChooserDialogImpl" timestamp="1597886361172">
+      <screen x="134" y="79" width="3706" height="2081" />
+    </state>
+    <state x="1187" y="44" width="1590" height="1808" key="FileChooserDialogImpl/134.79.3706.2081@134.79.3706.2081" timestamp="1597886361172" />
+    <state width="3633" height="374" key="GridCell.Tab.0.bottom" timestamp="1597886365136">
+      <screen x="134" y="79" width="3706" height="2081" />
+    </state>
+    <state width="3633" height="374" key="GridCell.Tab.0.bottom/134.79.3706.2081@134.79.3706.2081" timestamp="1597886365136" />
+    <state width="3633" height="374" key="GridCell.Tab.0.center" timestamp="1597886365135">
+      <screen x="134" y="79" width="3706" height="2081" />
+    </state>
+    <state width="3633" height="374" key="GridCell.Tab.0.center/134.79.3706.2081@134.79.3706.2081" timestamp="1597886365135" />
+    <state width="3633" height="374" key="GridCell.Tab.0.left" timestamp="1597886365134">
+      <screen x="134" y="79" width="3706" height="2081" />
+    </state>
+    <state width="3633" height="374" key="GridCell.Tab.0.left/134.79.3706.2081@134.79.3706.2081" timestamp="1597886365134" />
+    <state width="3633" height="374" key="GridCell.Tab.0.right" timestamp="1597886365136">
+      <screen x="134" y="79" width="3706" height="2081" />
+    </state>
+    <state width="3633" height="374" key="GridCell.Tab.0.right/134.79.3706.2081@134.79.3706.2081" timestamp="1597886365136" />
+    <state x="245" y="33" width="3474" height="2127" key="SettingsEditor" timestamp="1597885542615">
+      <screen x="134" y="79" width="3706" height="2081" />
+    </state>
+    <state x="245" y="33" width="3474" height="2127" key="SettingsEditor/134.79.3706.2081@134.79.3706.2081" timestamp="1597885542615" />
   </component>
 </project>

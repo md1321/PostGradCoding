@@ -1,0 +1,22 @@
+<html>
+<font size="6">Subsetting data frame</font> <br>
+<br>
+<p>In a data frame, you can select rows according to the values in specific columns.
+<br>
+
+<div class="hint">
+  You can right-click on election.csv in the file list (in the left panel) -> Copy Path to copy the full path of the file.
+</div>
+
+<div class="hint">
+  Use <code>df[df.colname>3]</code> to select rows in which the value in 'colname' is greater than 3.<br>
+  df[df['colname']>3] does the same.
+</div>
+
+<div class="hint">
+  data frame is essentially built on a 2D numpy array. Thus, you can use <code>df.shape</code> to get the shape (dimension) of a data frame.
+</div>
+
+<div class="hint">
+  df['column'].sum() will return the sum of numbers in 'column'. But this only applies to columns of numbers (integer, float, double), not string columns.
+</div>

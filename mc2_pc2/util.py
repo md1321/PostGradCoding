@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def symbol_to_path(symbol, base_dir=os.path.join("/home/ml4t/PycharmProjects/Project1", "data")):
+def symbol_to_path(symbol, base_dir=os.path.join("/home/mdonaher/PycharmProjects/mc2_pc2", "data")):
     """Return CSV file path given ticker symbol."""
     return os.path.join(base_dir, "{}.csv".format(str(symbol)))
 

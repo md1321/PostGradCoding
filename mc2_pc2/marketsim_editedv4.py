@@ -6,7 +6,7 @@ import datetime as dt
 import os
 from util import get_data, plot_data
 
-def compute_portvals(orders_file = "./orders/orders3.csv", start_val = 1000000, sd = dt.datetime(2007,12,31), ed = dt.datetime(2009,12,31)):
+def compute_portvals(orders_file = "./orders.csv", start_val = 1000000, sd = dt.datetime(2007,12,31), ed = dt.datetime(2009,12,31)):
 
     # this is the function the autograder will call to test your code
     # TODO: Your code here
@@ -90,7 +90,7 @@ def test_code1():
     # note that during autograding his function will not be called.
     # Define input parameters
 
-    of = "/home/ml4t/mc2_pc2/orders.csv"
+    of = "/home/mdonaher/PycharmProjects/mc2_pc2/orders.csv"
     sv = 10000
     start_date = dt.datetime(2007,12,31)
     end_date =dt.datetime(2009,12,31)
@@ -105,13 +105,14 @@ def test_code1():
         portvals = portvals[portvals.columns[0]] # just get the first column
     else:
         print "warning, Your code did not return a DataFrame"
+    plot_data(portvals)
     
     # Get portfolio stats
     # Here we just fake the data. you should use your code from previous assignments.
     start_date=portvals.index.min()
     end_date=portvals.index.max()
-    start_date1 = ((portvals.index.min()).to_datetime()).strftime('%Y-%m-%d')
-    end_date1 = ((portvals.index.max()).to_datetime()).strftime('%Y-%m-%d')
+    start_date1 = ((portvals.index.min()).to_pydatetime()).strftime('%Y-%m-%d')
+    end_date1 = ((portvals.index.max()).to_pydatetime()).strftime('%Y-%m-%d')
     calc_cum_ret = (portvals.ix[end_date, ['Cummulative_Value']]/portvals.ix[start_date, ['Cummulative_Value']]) -1
     calc_adr = ((portvals/portvals.shift()) -1).mean()
     calc_sddr = ((portvals/portvals.shift()) -1).std()

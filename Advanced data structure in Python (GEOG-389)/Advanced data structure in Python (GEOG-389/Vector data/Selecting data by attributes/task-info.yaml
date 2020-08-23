@@ -1,0 +1,132 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 207
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 207
+    initialized_from_dependency: false
+    possible_answer: C:/Users/yi/Documents/UH_work/Teaching/GEOG389/labs/lab2_data/crime.shp
+    selected: false
+    status: Unchecked
+  - offset: 256
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 256
+    initialized_from_dependency: false
+    possible_answer: '''Offence_ty'''
+    selected: false
+    status: Unchecked
+  - offset: 326
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 326
+    initialized_from_dependency: false
+    possible_answer: '''Offence_ty'''
+    selected: false
+    status: Unchecked
+  - offset: 338
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 338
+    initialized_from_dependency: false
+    possible_answer: '''BURGLARY'''
+    selected: false
+    status: Unchecked
+  - offset: 449
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 449
+    initialized_from_dependency: false
+    possible_answer: C:/Users/yi/Documents/UH_work/Teaching/GEOG389/labs/lab2_data/ct_oahu.shp
+    selected: false
+    status: Unchecked
+  - offset: 668
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 668
+    initialized_from_dependency: false
+    possible_answer: data['Offence_ty']=='BURGLARY'
+    selected: false
+    status: Unchecked
+  - offset: 906
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 906
+    initialized_from_dependency: false
+    possible_answer: data[data['Offence_ty']=='GRAFFITI'].plot(ax=base2, marker='*',
+      color='red', markersize=0.5)
+    selected: false
+    status: Unchecked
+  text: |
+    # Load the geopandas package, and name it gdp
+    import geopandas as gdp
+
+    # Read the shapefile crime.shp into data.
+    # Change the file path accordingly. You may copy from the previous task
+    data = gdp.read_file("type here")
+
+    # Get all unique offence types
+    data[type here].unique()
+
+
+    # Get all burglary incidents in Oahu.
+    data[data[type here]==type here]
+
+    # Read census tract boundaries in Oahu
+    # Change the file path accordingly
+    data_ct = gdp.read_file("type here")
+
+    # Create a map of the tract boundaries and assign the map to base1
+    base1 = data_ct.plot(color='white', edgecolor='black')
+
+    # Plot all these theft incidents in Oahu, using census tracts as the base map
+    data[type here].plot(ax=base1, marker='*', color='green', markersize=0.5)
+
+    # Create another map of the tract boundaries and assign the map to base2
+    base2 = data_ct.plot(color='white', edgecolor='black')
+
+    # Plot all graffiti incidents in Oahu.
+    type here
+
+    # Visually compare the spatial distributions of the two crime types in the maps (no need to write code here)
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |+
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_answer_placeholders():
+        placeholders = get_answer_placeholders()
+        placeholder = placeholders[0]
+        if placeholder == "":       # TODO: your condition here
+            passed()
+        else:
+            failed()
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        # test_answer_placeholders()       # TODO: uncomment test call
+
+
+  learner_created: false
+status: Unchecked
+record: -1

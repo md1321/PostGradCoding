@@ -1,0 +1,120 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 38
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 38
+    initialized_from_dependency: false
+    possible_answer: import pandas
+    selected: false
+    status: Unchecked
+  - offset: 465
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 465
+    initialized_from_dependency: false
+    possible_answer: 0:5
+    selected: false
+    status: Unchecked
+  - offset: 505
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 505
+    initialized_from_dependency: false
+    possible_answer: '''total'''
+    selected: false
+    status: Unchecked
+  - offset: 635
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 635
+    initialized_from_dependency: false
+    possible_answer: df['total']
+    selected: false
+    status: Unchecked
+  - offset: 769
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 769
+    initialized_from_dependency: false
+    possible_answer: '[''total'',''voters'',''turnout'']'
+    selected: false
+    status: Unchecked
+  - offset: 823
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 823
+    initialized_from_dependency: false
+    possible_answer: head()
+    selected: false
+    status: Unchecked
+  text: |
+    # import pandas as an abbreviation pd
+    type here as pd
+    # change the setting to print more rows
+    pd.set_option('display.expand_frame_repr', False)
+
+    # Read the spreadsheet (election.csv) and assign the data inside to df.
+    # Please change the file path to the location where you stored the data.
+    df = pd.read_csv('C:\Users\yi\Documents\UH_work\Teaching\GEOG389\labs\lab2_data\election.csv')
+
+
+    # Get the first 5 rows of df
+    df.head()
+
+    # Get the first 5 rows using index
+    df[type here]
+
+    # Get the column 'total'
+    df[type here]
+
+    # Use another method to get the column of total.
+    df.total
+
+    # Calculate the summation of numbers in the column 'total'
+    type here.sum()
+
+    # Get three columns from df, including total, voters, and turnout. Group them into a new data frame sub_df
+    sub_df=df[type here]
+
+    # Print the first 5 rows in sub_df
+    sub_df.type here
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |+
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_answer_placeholders():
+        placeholders = get_answer_placeholders()
+        placeholder = placeholders[0]
+        if placeholder == "":       # TODO: your condition here
+            passed()
+        else:
+            failed()
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        # test_answer_placeholders()       # TODO: uncomment test call
+
+
+  learner_created: false
+status: Unchecked
+record: -1

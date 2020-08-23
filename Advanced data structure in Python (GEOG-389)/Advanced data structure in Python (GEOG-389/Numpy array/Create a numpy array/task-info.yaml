@@ -1,0 +1,115 @@
+type: edu
+files:
+- name: tests.py
+  visible: false
+  text: |+
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_answer_placeholders():
+        placeholders = get_answer_placeholders()
+        placeholder = placeholders[0]
+        if placeholder == "":       # TODO: your condition here
+            passed()
+        else:
+            failed()
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        # test_answer_placeholders()       # TODO: uncomment test call
+
+
+  learner_created: false
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 157
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 157
+    initialized_from_dependency: false
+    possible_answer: import
+    selected: false
+    status: Unchecked
+  - offset: 173
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 173
+    initialized_from_dependency: false
+    possible_answer: as
+    selected: false
+    status: Unchecked
+  - offset: 412
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 412
+    initialized_from_dependency: false
+    possible_answer: np_baseball_h
+    selected: false
+    status: Unchecked
+  - offset: 612
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 612
+    initialized_from_dependency: false
+    possible_answer: np_baseball_h * 0.393701
+    selected: false
+    status: Unchecked
+  - offset: 646
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 646
+    initialized_from_dependency: false
+    possible_answer: np_baseball_in
+    selected: false
+    status: Unchecked
+  - offset: 728
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 728
+    initialized_from_dependency: false
+    possible_answer: np_baseball_w / np_baseball_h
+    selected: false
+    status: Unchecked
+  text: |
+    # Create list baseball
+    baseball_h = [180, 215, 210, 210, 188, 176, 209, 200]
+    baseball_w = [78, 86, 92, 88, 78, 75, 82, 90]
+
+    # Import the numpy package as np
+    type here numpy type here np
+
+    # Convert baseball_h to a numpy array (np_baseball_h)
+    np_baseball_h = np.array(baseball_h)
+
+    # Print out type of np_baseball_h
+    # The value of np_baseball_h will be printed out in the console, even though you don't use print()
+    type here
+
+    # Convert baseball_w to a numpy array (np_baseball_w)
+    np_baseball_w = np.array(baseball_w)
+
+    # Convert np_baseball_h to np_baseball_in, which are players' heights in inches
+    np_baseball_in = type here
+
+    # Print np_baseball_in
+    type here
+
+    # Calculate BMIs of the players. BMI = weight(kg)/height(cm).
+    BMI_np = type here
+  learner_created: false
+status: Unchecked
+record: -1

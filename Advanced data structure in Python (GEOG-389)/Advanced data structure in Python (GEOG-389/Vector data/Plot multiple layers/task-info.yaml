@@ -1,0 +1,67 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 150
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 150
+    initialized_from_dependency: false
+    possible_answer: '"C:/Users/yi/Documents/UH_work/Teaching/GEOG389/labs/lab2_data/crime.shp"'
+    selected: false
+    status: Unchecked
+  - offset: 262
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 262
+    initialized_from_dependency: false
+    possible_answer: C:/Users/yi/Documents/UH_work/Teaching/GEOG389/labs/lab2_data/
+    selected: false
+    status: Unchecked
+  text: |
+    # Load the geopandas package, and name it gdp
+    import geopandas as gdp
+
+    # Read the crime data
+    # Change the file path accordingly.
+    data = gdp.read_file(type here)
+
+
+    # Read census tract boundaries in Oahu
+    # Change the file path accordingly
+    data_ct = gdp.read_file("type herect_oahu.shp")
+
+    # Create a map of the tract boundaries and assign the map to base
+    base = data_ct.plot(color='white', edgecolor='black')
+
+    # plot the crime data using census tract boundaries as the basemap
+    data.plot(ax=base, marker='o', color='red', markersize=0.5)
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |+
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_answer_placeholders():
+        placeholders = get_answer_placeholders()
+        placeholder = placeholders[0]
+        if placeholder == "":       # TODO: your condition here
+            passed()
+        else:
+            failed()
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        # test_answer_placeholders()       # TODO: uncomment test call
+
+
+  learner_created: false
+status: Unchecked
+record: -1

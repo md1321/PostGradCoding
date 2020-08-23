@@ -1,0 +1,82 @@
+type: edu
+files:
+- name: task.py
+  visible: true
+  placeholders:
+  - offset: 206
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 206
+    initialized_from_dependency: false
+    possible_answer: 10, size=(10, 10)
+    selected: false
+    status: Unchecked
+  - offset: 504
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 504
+    initialized_from_dependency: false
+    possible_answer: 4:,2
+    selected: false
+    status: Unchecked
+  - offset: 644
+    length: 9
+    placeholder_text: type here
+    initial_state:
+      length: 9
+      offset: 644
+    initialized_from_dependency: false
+    possible_answer: '1:,1:'
+    selected: false
+    status: Unchecked
+  text: |+
+    # always import numpy before using it.
+    import numpy as np
+
+    # Create an 10 by 10 array with random integer number between 0 and 100
+    # Refer to the previous task to write the code
+    rand_np = np.random.randint(type here)
+
+    # print rand_np. Note: the console omits printing the middle part of the array.
+    rand_np
+
+    # From the first row, get the elements from 3rd column to the last, and print it out.
+    rand_np[0,2:]
+
+    # From the 3rd column, get the elements from the 5th row to the last, and print it out.
+    rand_np[type here]
+
+    # Get the subset of the array from 2nd row and 2nd column, i.e. omitting the first row and first column.
+    # Print it out
+    rand_np[type here]
+
+
+
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |+
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_answer_placeholders():
+        placeholders = get_answer_placeholders()
+        placeholder = placeholders[0]
+        if placeholder == "":       # TODO: your condition here
+            passed()
+        else:
+            failed()
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        # test_answer_placeholders()       # TODO: uncomment test call
+
+
+  learner_created: false
+status: Unchecked
+record: -1

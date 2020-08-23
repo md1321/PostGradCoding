@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-def symbol_to_path(symbol, base_dir="/home/ml4t/data"):
+def symbol_to_path(symbol, base_dir="/home/mdonaher/ml4t/data"):
     """Return CSV file path given ticker symbol."""
     return os.path.join(base_dir, "{}.csv".format(str(symbol)))
 
@@ -123,8 +123,10 @@ def test_run():
     dfBol=df.copy()
     dfBol['Symbol']='IBM'
     dfBol['Order']='None'
-    dfBol['rolling_mean']= pd.rolling_mean(df['IBM'], window=20)
-    dfBol['rolling_std'] = pd.rolling_std(df['IBM'], window=20)
+    #dfBol['rolling_mean']= pd.rolling_mean(df['IBM'], window=20)  #df['IBM']x.rolling(window=2).mean()
+    dfBol['rolling_mean']= df['IBM'].rolling(window=20).mean()
+    #dfBol['rolling_std'] = pd.rolling_std(df['IBM'], window=20)
+    dfBol['rolling_std'] = df['IBM'].rolling(window=20).std()
     dfBol['upper_band'] = dfBol['rolling_mean'] + 2*dfBol['rolling_std']
     dfBol['lower_band'] = dfBol['rolling_mean'] - 2*dfBol['rolling_std']
     dfBol['long execute']=0
@@ -221,8 +223,8 @@ def test_run():
     dfBol1Cum.to_csv('Bolliger_Cummulative.csv')
     portvals.to_csv('My_Simulator.csv')
 
-    start_date1 = ((portvals.index.min()).to_datetime()).strftime('%Y-%m-%d')
-    end_date1 = ((portvals.index.max()).to_datetime()).strftime('%Y-%m-%d')
+    start_date1 = ((portvals.index.min()).to_pydatetime()).strftime('%Y-%m-%d')
+    end_date1 = ((portvals.index.max()).to_pydatetime()).strftime('%Y-%m-%d')
     calc_cum_ret = (portvals.ix[-1, ['Cummulative_Value']]/portvals.ix[0, ['Cummulative_Value']]) -1
 
     calc_adr = ((portvals['Cummulative_Value']/portvals['Cummulative_Value'].shift()) -1).mean()
